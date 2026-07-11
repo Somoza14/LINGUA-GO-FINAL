@@ -369,5 +369,5 @@ app.use(express.static("../"));
 // //  ESTO FUNCIONA EN TU PC Y EN RAILWAY
 const PORT = process.env.PORT || "http://localhost:4000";
 app.listen(process.env.PORT, () => {
-  console.log("Servidor SQLite ejecutándose en process.env.PORT ");
+  console.log("Servidor SQLite ejecutándose en const PORT = process.env.PORT || http://localhost:4000");
 });
